@@ -1,0 +1,628 @@
+        services: {
+            title: "Our Services",
+            subtitle: "Cutting-edge technological solutions tailored to your needs",
+            ai: {
+                title: "Artificial Intelligence",
+                description: "Implementation of custom AI models for automation, prediction, and optimization of business processes."
+            },
+            ml: {
+                title: "Machine Learning",
+                description: "Development of predictive models, data analysis, and recommendation systems based on machine learning."
+            },
+            vision: {
+                title: "Computer Vision",
+                description: "Image recognition solutions, object detection, and automated visual analysis."
+            },
+            dev: {
+                title: "Software Development",
+                description: "Robust web and mobile applications using the latest technologies and industry best practices."
+            },
+            cloud: {
+                title: "Cloud Computing",
+                description: "Scalable architectures, cloud migration, and technological infrastructure optimization."
+            },
+            research: {
+                title: "Applied Research",
+                description: "Innovative solutions based on cutting-edge scientific research for complex problems."
+            }
+        },
+        projects: {
+            title: "Featured Projects",
+            subtitle: "Success stories demonstrating our ability to solve complex challenges",
+            project1: {
+                title: "Demand Prediction System",
+                client: "Retail • Mexico",
+                description: "Implementation of machine learning models to predict product demand across multiple branches, reducing excess inventory by 35% and increasing availability of key products by 28%."
+            },
+            project2: {
+                title: "Computer Vision System for Quality Control",
+                client: "Manufacturing • USA",
+                description: "Development of an automated visual inspection system using deep learning to detect defects in production lines, improving detection accuracy to 99.2% and reducing manual inspection costs by 60%."
+            },
+            project3: {
+                title: "Real-Time Sentiment Analysis Platform",
+                client: "E-commerce • International",
+                description: "Construction of a cloud-native platform to analyze customer opinions in real-time, processing over 50,000 reviews daily and generating actionable insights that increased customer satisfaction by 42%."
+            },
+            project4: {
+                title: "Route Optimization with Genetic Algorithms",
+                client: "Logistics • Mexico",
+                description: "Development of an intelligent delivery route optimization system using genetic algorithms and parallel computing, reducing fuel costs by 25% and improving delivery times by 30%."
+            }
+        },
+        publications: {
+            title: "Scientific Publications",
+            subtitle: "Cutting-edge research published in international journals and conferences",
+            pub1: {
+                title: "Deep Learning Approaches for Real-Time Object Detection in Industrial Environments",
+                authors: "Ortega, F., Valdez, R., Nation, L.",
+                venue: "IEEE Transactions on Industrial Informatics, 2024"
+            },
+            pub2: {
+                title: "Hybrid Genetic Algorithms for Multi-Objective Optimization in Supply Chain Management",
+                authors: "Muñoz, J.M., Quevedo, J., Ortega, J.",
+                venue: "International Conference on Evolutionary Computation (CEC), 2023"
+            },
+            pub3: {
+                title: "Fuzzy Inference Systems for Decision Support in Uncertain Business Environments",
+                authors: "Valdez, R., Ortega, F., Muñoz, J.M.",
+                venue: "Expert Systems with Applications, 2023"
+            },
+            pub4: {
+                title: "Scalable Cloud Architectures for Real-Time Machine Learning Applications",
+                authors: "Nation, L., Quevedo, J., Ortega, J.",
+                venue: "IEEE International Conference on Cloud Computing (CLOUD), 2023"
+            },
+            pub5: {
+                title: "Advanced Computer Vision Techniques for Automated Quality Control Systems",
+                authors: "Ortega, J., Nation, L., Valdez, R.",
+                venue: "Computer Vision and Image Understanding, 2024"
+            },
+            pub6: {
+                title: "Natural Language Processing for Customer Sentiment Analysis in E-commerce Platforms",
+                authors: "Muñoz, J.M., Ortega, F., Quevedo, J.",
+                venue: "ACM Conference on Information and Knowledge Management (CIKM), 2024"
+            }
+        },<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&C Labs - Research & Code Labs</title>
+    <meta name="description" content="Transformamos desafíos empresariales en ventajas competitivas mediante IA, Machine Learning y desarrollo tecnológico de vanguardia.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="lang-btn" data-lang="es" title="Español">
+            <img src="https://flagcdn.com/w40/mx.png" alt="Español">
+        </button>
+        <button class="lang-btn" data-lang="en" title="English">
+            <img src="https://flagcdn.com/w40/us.png" alt="English">
+        </button>
+        <button class="lang-btn" data-lang="de" title="Deutsch">
+            <img src="https://flagcdn.com/w40/de.png" alt="Deutsch">
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>R&C LABS</h1>
+                <span>Research & Code Labs</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-i18n="nav.home">Inicio</a></li>
+                <li><a href="#about" data-i18n="nav.about">Nosotros</a></li>
+                <li><a href="#services" data-i18n="nav.services">Servicios</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+                <li><a href="#publications" data-i18n="nav.publications">Publicaciones</a></li>
+                <li><a href="#team" data-i18n="nav.team">Equipo</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-i18n="hero.title">
+                    Transformando Desafíos en Ventajas Competitivas
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">
+                    Soluciones de Inteligencia Artificial y Machine Learning respaldadas por investigación científica de alto nivel
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.cta">Comencemos su proyecto</a>
+                    <a href="#services" class="btn btn-secondary" data-i18n="hero.learn">Nuestros servicios</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background" style="background-image: url('https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3cbba19a-4c73-4f1c-95a5-22482a862ee9_1024x757.jpeg'); background-size: cover; background-position: center; opacity: 0.15;"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">¿Quiénes Somos?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description" data-i18n="about.description">
+                        R&C Labs nace de la convergencia entre investigación de frontera y necesidades empresariales concretas. Somos un equipo multidisciplinario de investigadores y desarrolladores que no solo implementamos tecnología, sino que la entendemos profundamente, la investigamos y la adaptamos a cada desafío único de nuestros clientes.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>7</h3>
+                            <p data-i18n="about.stat1">Doctores en Ciencias</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>15+</h3>
+                            <p data-i18n="about.stat2">Años de Experiencia Combinada</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>∞</h3>
+                            <p data-i18n="about.stat3">Posibilidades de Innovación</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-values">
+                    <h3 data-i18n="about.mission.title">Nuestra Misión</h3>
+                    <p data-i18n="about.mission.text">
+                        Transformar los desafíos empresariales más complejos en ventajas competitivas mediante la aplicación rigurosa de metodología científica, desarrollo tecnológico de vanguardia y soluciones de inteligencia artificial, impulsados por un grupo de investigadores especializados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-i18n="services.title">Nuestros Servicios</h2>
+            <p class="section-subtitle" data-i18n="services.subtitle">
+                Soluciones tecnológicas de vanguardia adaptadas a sus necesidades
+            </p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3 data-i18n="services.ai.title">Inteligencia Artificial</h3>
+                    <p data-i18n="services.ai.description">
+                        Implementación de modelos de IA personalizados para automatización, predicción y optimización de procesos empresariales.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3 data-i18n="services.ml.title">Machine Learning</h3>
+                    <p data-i18n="services.ml.description">
+                        Desarrollo de modelos predictivos, análisis de datos y sistemas de recomendación basados en aprendizaje automático.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👁️</div>
+                    <h3 data-i18n="services.vision.title">Visión por Computadora</h3>
+                    <p data-i18n="services.vision.description">
+                        Soluciones de reconocimiento de imágenes, detección de objetos y análisis visual automatizado.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3 data-i18n="services.dev.title">Desarrollo de Software</h3>
+                    <p data-i18n="services.dev.description">
+                        Aplicaciones web y móviles robustas utilizando las últimas tecnologías y mejores prácticas de la industria.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3 data-i18n="services.cloud.title">Cómputo en la Nube</h3>
+                    <p data-i18n="services.cloud.description">
+                        Arquitecturas escalables, migración a la nube y optimización de infraestructura tecnológica.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3 data-i18n="services.research.title">Investigación Aplicada</h3>
+                    <p data-i18n="services.research.description">
+                        Soluciones innovadoras basadas en investigación científica de vanguardia para problemas complejos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects.title">Proyectos Destacados</h2>
+            <p class="section-subtitle" data-i18n="projects.subtitle">
+                Casos de éxito que demuestran nuestra capacidad de resolver desafíos complejos
+            </p>
+            <div class="projects-grid-compact">
+                <a href="proyecto-prediccion-demanda.html" target="_blank" class="project-card-compact">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Proyecto 1">
+                    </div>
+                    <h3 data-i18n="projects.project1.title">Sistema de Predicción de Demanda</h3>
+                    <p class="project-card-badge" data-i18n="projects.project1.client">Retail • México</p>
+                    <p class="project-card-excerpt">Machine Learning para optimizar inventario en retail</p>
+                    <div class="project-card-stats">
+                        <span class="stat-highlight">-35% Inventario</span>
+                        <span class="stat-highlight">+28% Disponibilidad</span>
+                    </div>
+                    <div class="project-card-tech">
+                        <span>ML</span>
+                        <span>Python</span>
+                        <span>Time Series</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="view-project">Ver detalles →</span>
+                    </div>
+                </a>
+
+                <a href="proyecto-vision-computadora.html" target="_blank" class="project-card-compact">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop" alt="Proyecto 2">
+                    </div>
+                    <h3 data-i18n="projects.project2.title">Sistema de Visión por Computadora para Control de Calidad</h3>
+                    <p class="project-card-badge" data-i18n="projects.project2.client">Manufactura • USA</p>
+                    <p class="project-card-excerpt">Deep Learning para inspección visual automatizada</p>
+                    <div class="project-card-stats">
+                        <span class="stat-highlight">99.2% Precisión</span>
+                        <span class="stat-highlight">-60% Costos</span>
+                    </div>
+                    <div class="project-card-tech">
+                        <span>Computer Vision</span>
+                        <span>Deep Learning</span>
+                        <span>CNN</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="view-project">Ver detalles →</span>
+                    </div>
+                </a>
+
+                <a href="proyecto-analisis-sentimiento.html" target="_blank" class="project-card-compact">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Proyecto 3">
+                    </div>
+                    <h3 data-i18n="projects.project3.title">Plataforma de Análisis de Sentimiento en Tiempo Real</h3>
+                    <p class="project-card-badge" data-i18n="projects.project3.client">E-commerce • Internacional</p>
+                    <p class="project-card-excerpt">Procesamiento de opiniones de clientes con NLP</p>
+                    <div class="project-card-stats">
+                        <span class="stat-highlight">50k Reseñas/día</span>
+                        <span class="stat-highlight">+42% Satisfacción</span>
+                    </div>
+                    <div class="project-card-tech">
+                        <span>NLP</span>
+                        <span>Cloud</span>
+                        <span>Real-time</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="view-project">Ver detalles →</span>
+                    </div>
+                </a>
+
+                <a href="proyecto-optimizacion-rutas.html" target="_blank" class="project-card-compact">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&h=400&fit=crop" alt="Proyecto 4">
+                    </div>
+                    <h3 data-i18n="projects.project4.title">Optimización de Rutas con Algoritmos Genéticos</h3>
+                    <p class="project-card-badge" data-i18n="projects.project4.client">Logística • México</p>
+                    <p class="project-card-excerpt">Sistema inteligente para rutas de entrega óptimas</p>
+                    <div class="project-card-stats">
+                        <span class="stat-highlight">-25% Combustible</span>
+                        <span class="stat-highlight">+30% Rapidez</span>
+                    </div>
+                    <div class="project-card-tech">
+                        <span>Genetic Algorithms</span>
+                        <span>Optimization</span>
+                        <span>Parallel Computing</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="view-project">Ver detalles →</span>
+                    </div>
+                </a>
+
+                <a href="proyecto-chatbot-ia.html" target="_blank" class="project-card-compact">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=400&fit=crop" alt="Proyecto 5">
+                    </div>
+                    <h3>Chatbot Inteligente con IA Conversacional</h3>
+                    <p class="project-card-badge">Atención al Cliente</p>
+                    <p class="project-card-excerpt">Asistente virtual 24/7 con procesamiento de lenguaje natural</p>
+                    <div class="project-card-stats">
+                        <span class="stat-highlight">85% Automatización</span>
+                        <span class="stat-highlight">-70% Tiempo respuesta</span>
+                    </div>
+                    <div class="project-card-tech">
+                        <span>NLP</span>
+                        <span>Chatbot</span>
+                        <span>AI</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="view-project">Ver detalles →</span>
+                    </div>
+                </a>
+
+                <a href="proyecto-deteccion-fraude.html" target="_blank" class="project-card-compact">
+                    <div class="project-card-image">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop" alt="Proyecto 6">
+                    </div>
+                    <h3>Sistema de Detección de Fraude en Tiempo Real</h3>
+                    <p class="project-card-badge">Finanzas</p>
+                    <p class="project-card-excerpt">Machine Learning para prevención de fraude financiero</p>
+                    <div class="project-card-stats">
+                        <span class="stat-highlight">98.5% Detección</span>
+                        <span class="stat-highlight">-92% Falsos positivos</span>
+                    </div>
+                    <div class="project-card-tech">
+                        <span>ML</span>
+                        <span>Anomaly Detection</span>
+                        <span>Real-time</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <span class="view-project">Ver detalles →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title" data-i18n="publications.title">Publicaciones Científicas</h2>
+            <p class="section-subtitle" data-i18n="publications.subtitle">
+                Investigación de vanguardia publicada en revistas y conferencias internacionales
+            </p>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <div class="publication-icon">📄</div>
+                    <h3 class="publication-title" data-i18n="publications.pub1.title">
+                        Deep Learning Approaches for Real-Time Object Detection in Industrial Environments
+                    </h3>
+                    <p class="publication-authors" data-i18n="publications.pub1.authors">
+                        Ortega, F., Valdez, R., Nation, L.
+                    </p>
+                    <p class="publication-venue" data-i18n="publications.pub1.venue">
+                        IEEE Transactions on Industrial Informatics, 2024
+                    </p>
+                    <div class="publication-metrics">
+                        <span>📊 45 citas</span>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-icon">📄</div>
+                    <h3 class="publication-title" data-i18n="publications.pub2.title">
+                        Hybrid Genetic Algorithms for Multi-Objective Optimization in Supply Chain Management
+                    </h3>
+                    <p class="publication-authors" data-i18n="publications.pub2.authors">
+                        Muñoz, J.M., Quevedo, J., Ortega, J.
+                    </p>
+                    <p class="publication-venue" data-i18n="publications.pub2.venue">
+                        International Conference on Evolutionary Computation (CEC), 2023
+                    </p>
+                    <div class="publication-metrics">
+                        <span>📊 32 citas</span>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-icon">📄</div>
+                    <h3 class="publication-title" data-i18n="publications.pub3.title">
+                        Fuzzy Inference Systems for Decision Support in Uncertain Business Environments
+                    </h3>
+                    <p class="publication-authors" data-i18n="publications.pub3.authors">
+                        Valdez, R., Ortega, F., Muñoz, J.M.
+                    </p>
+                    <p class="publication-venue" data-i18n="publications.pub3.venue">
+                        Expert Systems with Applications, 2023
+                    </p>
+                    <div class="publication-metrics">
+                        <span>📊 67 citas</span>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-icon">📄</div>
+                    <h3 class="publication-title" data-i18n="publications.pub4.title">
+                        Scalable Cloud Architectures for Real-Time Machine Learning Applications
+                    </h3>
+                    <p class="publication-authors" data-i18n="publications.pub4.authors">
+                        Nation, L., Quevedo, J., Ortega, J.
+                    </p>
+                    <p class="publication-venue" data-i18n="publications.pub4.venue">
+                        IEEE International Conference on Cloud Computing (CLOUD), 2023
+                    </p>
+                    <div class="publication-metrics">
+                        <span>📊 28 citas</span>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-icon">📄</div>
+                    <h3 class="publication-title" data-i18n="publications.pub5.title">
+                        Advanced Computer Vision Techniques for Automated Quality Control Systems
+                    </h3>
+                    <p class="publication-authors" data-i18n="publications.pub5.authors">
+                        Ortega, J., Nation, L., Valdez, R.
+                    </p>
+                    <p class="publication-venue" data-i18n="publications.pub5.venue">
+                        Computer Vision and Image Understanding, 2024
+                    </p>
+                    <div class="publication-metrics">
+                        <span>📊 51 citas</span>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-icon">📄</div>
+                    <h3 class="publication-title" data-i18n="publications.pub6.title">
+                        Natural Language Processing for Customer Sentiment Analysis in E-commerce Platforms
+                    </h3>
+                    <p class="publication-authors" data-i18n="publications.pub6.authors">
+                        Muñoz, J.M., Ortega, F., Quevedo, J.
+                    </p>
+                    <p class="publication-venue" data-i18n="publications.pub6.venue">
+                        ACM Conference on Information and Knowledge Management (CIKM), 2024
+                    </p>
+                    <div class="publication-metrics">
+                        <span>📊 19 citas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title" data-i18n="team.title">Nuestro Equipo</h2>
+            <p class="section-subtitle" data-i18n="team.subtitle">
+                Doctores en Ciencias con experiencia en investigación e industria
+            </p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/fidel.png" alt="Dr. Fidel Ortega">
+                    </div>
+                    <h3>Dr. Fidel Ortega</h3>
+                    <p class="member-role">Chief Executive Officer</p>
+                    <p class="member-bio" data-i18n="team.member1.bio">
+                        Especialista en inteligencia artificial y machine learning con amplia experiencia en la implementación de soluciones tecnológicas innovadoras.
+                    </p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/rogelio2.png" alt="Dr. Rogelio Valdez">
+                    </div>
+                    <h3>Dr. Rogelio Valdez</h3>
+                    <p class="member-role">Research Scientist & AI Consultant</p>
+                    <p class="member-bio" data-i18n="team.member2.bio">
+                        Experto en algoritmos de optimización y sistemas inteligentes aplicados a problemas empresariales complejos.
+                    </p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/mane.jpeg" alt="Dr. Jose Manuel Muñoz Contreras">
+                    </div>
+                    <h3>Dr. Jose Manuel Muñoz Contreras</h3>
+                    <p class="member-role">Research Scientist & AI Consultant</p>
+                    <p class="member-bio" data-i18n="team.member3.bio">
+                        Especialista en procesamiento de lenguaje natural y análisis de datos con enfoque en soluciones empresariales.
+                    </p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/Jose.png" alt="Dr. Jose Ortega">
+                    </div>
+                    <h3>Dr. Jose Ortega</h3>
+                    <p class="member-role">Research Scientist & AI Consultant</p>
+                    <p class="member-bio" data-i18n="team.member4.bio">
+                        Investigador en visión por computadora y sistemas de reconocimiento de patrones aplicados a la industria.
+                    </p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/leeNation2.jpeg" alt="Dr. Lee Nation">
+                    </div>
+                    <h3>Dr. Lee Nation</h3>
+                    <p class="member-role">Research Scientist & AI Consultant</p>
+                    <p class="member-bio" data-i18n="team.member5.bio">
+                        Experto en arquitecturas de software escalables y desarrollo de aplicaciones de alto rendimiento.
+                    </p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/joel.jpeg" alt="Dr. Joel Quevedo">
+                    </div>
+                    <h3>Dr. Joel Quevedo</h3>
+                    <p class="member-role">Research Scientist & AI Consultant</p>
+                    <p class="member-bio" data-i18n="team.member6.bio">
+                        Especialista en cómputo en la nube y sistemas distribuidos para soluciones empresariales modernas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Contáctenos</h2>
+            <p class="section-subtitle" data-i18n="contact.subtitle">
+                ¿Listo para transformar su empresa con IA? Hablemos sobre su proyecto
+            </p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3 data-i18n="contact.email">Email</h3>
+                        <p>contact@rclabs.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3 data-i18n="contact.phone">Teléfono</h3>
+                        <p>(xxx) xxx-xxxx</p>
+                    </div>
+                    <div class="info-item">
+                        <h3 data-i18n="contact.location">Ubicación</h3>
+                        <p>Tijuana, Baja California, México</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name" data-i18n="contact.form.name">Nombre</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email" data-i18n="contact.form.email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" name="company">
+                        <label for="company" data-i18n="contact.form.company">Empresa</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message" data-i18n="contact.form.message">Mensaje</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>R&C LABS</h3>
+                    <p>Research & Code Labs</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" data-i18n="nav.home">Inicio</a>
+                    <a href="#about" data-i18n="nav.about">Nosotros</a>
+                    <a href="#services" data-i18n="nav.services">Servicios</a>
+                    <a href="#projects" data-i18n="nav.projects">Proyectos</a>
+                    <a href="#publications" data-i18n="nav.publications">Publicaciones</a>
+                    <a href="#team" data-i18n="nav.team">Equipo</a>
+                    <a href="#contact" data-i18n="nav.contact">Contacto</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 R&C Labs. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
